@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: absolute;
+}
+
+.side-left {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background: #002e58;
+    height: 100vh;
+    padding:20px 0 0 20px;
+    color: #eceff2;
+}
+
+.user {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.setting-icon {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ticket {
+    padding-left: 30px;
+}
+
+.setting-icon i {
+    font-size: 20px;
+    color: #4c6785;
+}
+
+.setting-icon span {
+    color: #8A92A6;
+}
+
+
+
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content-side-right {
+    padding-left: 6%;
+}
+
+.btn-token button {
+    width: 130px;
+    height: 28px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.convert-fee {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 56px;
+    padding-bottom: 150px;
+}
+
+.convert-fee div {
+    display: flex;
+    align-items: center;
+}
+
+.convert-fee div .title {
+    width: 180px;
+} 
+
+.convert-fee div .input-token,
+.convert-fee div .input-bnb {
+    text-align: right;
+    height: 32px;
+    width: 200px;
+    outline: none;
+}
+
+.convert-fee div .input-token {
+    padding-left: 4px;
+    padding-right: 60px;
+}
+
+.convert-fee div .input-bnb {
+    padding-left: 4px;
+    padding-right: 46px;
+}
+
+.convert-fee div .text-token {
+    position: relative;
+    top: 0;
+    left: -60px;
+}
+
+.convert-fee div .text-bnb {
+    position: relative;
+    top: 0;
+    left: -40px;
+}
