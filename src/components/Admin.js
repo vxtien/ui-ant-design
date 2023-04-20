@@ -60,7 +60,7 @@ const Addmin = () => {
                   %Token
                 </span>
               </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
+              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
                 <span style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
@@ -75,7 +75,7 @@ const Addmin = () => {
                   %Token
                 </span>
               </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
+              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
                 <span style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
@@ -90,7 +90,7 @@ const Addmin = () => {
                   %Token
                 </span>
               </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
+              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
                 <span style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
@@ -105,7 +105,7 @@ const Addmin = () => {
                   %Token
                 </span>
               </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
+              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
                 <span style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
@@ -120,7 +120,7 @@ const Addmin = () => {
                   %Token
                 </span>
               </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
+              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
                 <span style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
