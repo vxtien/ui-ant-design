@@ -1,4 +1,4 @@
-export const fees = [
+export const fees_data = [
     {
         id: 1,
         title: 'Unlock Early Fees',
