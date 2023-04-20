@@ -1,8 +1,8 @@
 import { UserOutlined } from '@ant-design/icons';
 import { Avatar } from "antd"
-const SideLeft = () => {
+const LeftSide = () => {
     return (
-        <div className='side-left'>
+        <div className='left-side'>
             <div className='user'>
                 <Avatar size={60} icon={<UserOutlined/>} style={{background:"#bfbfbf"}}/> 
                 Admin
@@ -22,4 +22,4 @@ const SideLeft = () => {
         </div>
     )
 }
-export default SideLeft;
+export default LeftSide;

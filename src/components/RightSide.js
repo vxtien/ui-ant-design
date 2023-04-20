@@ -2,7 +2,7 @@ import { Button } from "antd";
 import { Header } from "antd/es/layout/layout";
 
 
-const SideRight = () => {
+const RightSide = () => {
     return (
         <div>
             <Header className="header">
@@ -47,4 +47,4 @@ const SideRight = () => {
         </div>
     )
 }
-export default SideRight;
+export default RightSide;

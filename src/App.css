@@ -8,12 +8,12 @@ body {
     position: absolute;
 }
 
-.side-left {
+.left-side {
     display: flex;
     flex-direction: column;
     gap: 36px;
     background: #002e58;
-    height: 100vh;
+    height: 400vh;
     padding:20px 0 0 20px;
     color: #eceff2;
 }

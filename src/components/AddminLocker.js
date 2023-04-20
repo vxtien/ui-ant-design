@@ -1,16 +1,16 @@
 import {  Row, Col } from "antd";
-import SideLeft from "./SideLeft";
-import SideRight from "./SideRight";
+import LeftSide from "./LeftSide";
+import RightSide from "./RightSide";
 
 const AddminLocker = () => {
   return (
     <Row>
       <Col span={4}>
-        <SideLeft/>
+        <LeftSide/>
       </Col>
 
       <Col span={20}>
-        <SideRight/>
+        <RightSide/>
       </Col>
     </Row>
   );
