@@ -1,6 +1,6 @@
-import { Layout, Avatar, Menu, Button } from "antd";
+import { Layout, Avatar, Menu, Button, Form, Input } from "antd";
 import { UserOutlined } from "@ant-design/icons";
-const { Sider, Header, Content, } = Layout;
+const { Sider, Header, Content } = Layout;
 
 const Addmin = () => {
   return (
@@ -38,54 +38,98 @@ const Addmin = () => {
         />
       </Sider>
 
-      <Layout style={{ background: "white"}}>
+      <Layout style={{ background: "white" }}>
         <Header className="header">
           <h1>Fee Setting</h1>
         </Header>
-        <Content style={{ background: "white",paddingLeft:'6%' }}>
+        <Content style={{ background: "white", paddingLeft: "6%" }}>
           <div className="btn-token">
             <button>LP Token</button>
             <button>Standard Token</button>
           </div>
-          <div className="convert-fee">
-            <div>
-              <span className="title">Unlock Early Fees:</span>
-              <input className="input-token" />{" "}
-              <span className="text-token">%Token</span>
-              <input className="input-bnb" />{" "}
-              <span className="text-bnb">BNB</span>
-            </div>
-            <div>
-              <span className="title">Withdraw Fees:</span>
-              <input className="input-token" />{" "}
-              <span className="text-token">%Token</span>
-              <input className="input-bnb" />{" "}
-              <span className="text-bnb">BNB</span>
-            </div>
-            <div>
-              <span className="title">Relock Fees:</span>
-              <input className="input-token" />{" "}
-              <span className="text-token">%Token</span>
-              <input className="input-bnb" />{" "}
-              <span className="text-bnb">BNB</span>
-            </div>
-            <div>
-              <span className="title">Increase Lock Fees:</span>
-              <input className="input-token" />{" "}
-              <span className="text-token">%Token</span>
-              <input className="input-bnb" />{" "}
-              <span className="text-bnb">BNB</span>
-            </div>
-            <div>
-              <span className="title">Lock Fees:</span>
-              <input className="input-token" />{" "}
-              <span className="text-token">%Token</span>
-              <input className="input-bnb" />{" "}
-              <span className="text-bnb">BNB</span>
-            </div>
-          </div>
 
-          <Button>Update</Button>
+          <Form
+            style={{ paddingTop: 30}}
+            labelCol={{ span: 4 }}
+            wrapperCol={{ span: 16 }}
+          >
+            <Form.Item label="Unlock Early Fees:">
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight: 64, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 140 }}>
+                  %Token
+                </span>
+              </Form.Item>
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight:54, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 156 }}>
+                  BNB
+                </span>
+              </Form.Item>
+            </Form.Item>
+
+            <Form.Item label="Withdraw:">
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight: 64, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 140 }}>
+                  %Token
+                </span>
+              </Form.Item>
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight:54, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 156 }}>
+                  BNB
+                </span>
+              </Form.Item>
+            </Form.Item>
+
+            <Form.Item label="Relock Fees:">
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight: 64, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 140 }}>
+                  %Token
+                </span>
+              </Form.Item>
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight:54, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 156 }}>
+                  BNB
+                </span>
+              </Form.Item>
+            </Form.Item>
+
+            <Form.Item label="Increase Lock Fees:">
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight: 64, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 140 }}>
+                  %Token
+                </span>
+              </Form.Item>
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight:54, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 156 }}>
+                  BNB
+                </span>
+              </Form.Item>
+            </Form.Item>
+
+            <Form.Item label="Lock Fees:">
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight: 64, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 140 }}>
+                  %Token
+                </span>
+              </Form.Item>
+              <Form.Item style={{ display: "inline-block", width: 200 }}>
+                <Input style={{ paddingRight:54, textAlign: "end" }} />
+                <span style={{ position: "relative", top: -26, left: 156 }}>
+                  BNB
+                </span>
+              </Form.Item>
+            </Form.Item>
+          </Form>
+
+          <Button disabled>Update</Button>
         </Content>
       </Layout>
     </Layout>
