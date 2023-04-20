@@ -56,75 +56,75 @@ const Addmin = () => {
             <Form.Item label="Unlock Early Fees:">
               <Form.Item style={{ display: "inline-block", width: 200 }}>
                 <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 140 }}>
+                <p style={{ position: "relative", top: -26, left: 140 }}>
                   %Token
-                </span>
+                </p>
               </Form.Item>
               <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 156 }}>
+                <p style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
-                </span>
+                </p>
               </Form.Item>
             </Form.Item>
 
             <Form.Item label="Withdraw:">
               <Form.Item style={{ display: "inline-block", width: 200 }}>
                 <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 140 }}>
+                <p style={{ position: "relative", top: -26, left: 140 }}>
                   %Token
-                </span>
+                </p>
               </Form.Item>
               <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 156 }}>
+                <p style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
-                </span>
+                </p>
               </Form.Item>
             </Form.Item>
 
             <Form.Item label="Relock Fees:">
               <Form.Item style={{ display: "inline-block", width: 200 }}>
                 <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 140 }}>
+                <p style={{ position: "relative", top: -26, left: 140 }}>
                   %Token
-                </span>
+                </p>
               </Form.Item>
               <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 156 }}>
+                <p style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
-                </span>
+                </p>
               </Form.Item>
             </Form.Item>
 
             <Form.Item label="Increase Lock Fees:">
               <Form.Item style={{ display: "inline-block", width: 200 }}>
                 <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 140 }}>
+                <p style={{ position: "relative", top: -26, left: 140 }}>
                   %Token
-                </span>
+                </p>
               </Form.Item>
               <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 156 }}>
+                <p style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
-                </span>
+                </p>
               </Form.Item>
             </Form.Item>
 
             <Form.Item label="Lock Fees:">
               <Form.Item style={{ display: "inline-block", width: 200 }}>
                 <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 140 }}>
+                <p style={{ position: "relative", top: -26, left: 140 }}>
                   %Token
-                </span>
+                </p>
               </Form.Item>
               <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
                 <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <span style={{ position: "relative", top: -26, left: 156 }}>
+                <p style={{ position: "relative", top: -26, left: 156 }}>
                   BNB
-                </span>
+                </p>
               </Form.Item>
             </Form.Item>
           </Form>
