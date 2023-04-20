@@ -1,5 +1,6 @@
 import { Layout, Avatar, Menu, Button, Form, Input } from "antd";
 import { UserOutlined } from "@ant-design/icons";
+import { fees } from "./fees-data";
 const { Sider, Header, Content } = Layout;
 
 const Addmin = () => {
@@ -53,7 +54,8 @@ const Addmin = () => {
             labelCol={{ span: 4 }}
             wrapperCol={{ span: 16 }}
           >
-            <Form.Item label="Unlock Early Fees:">
+            {fees.map(f => (
+              <Form.Item label={f.title} style={{height:48}}>
               <Form.Item style={{ display: "inline-block", width: 200 }}>
                 <Input style={{ paddingRight: 64, textAlign: "end" }} />
                 <p style={{ position: "relative", top: -26, left: 140 }}>
@@ -67,66 +69,7 @@ const Addmin = () => {
                 </p>
               </Form.Item>
             </Form.Item>
-
-            <Form.Item label="Withdraw:">
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
-                <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 140 }}>
-                  %Token
-                </p>
-              </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
-                <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 156 }}>
-                  BNB
-                </p>
-              </Form.Item>
-            </Form.Item>
-
-            <Form.Item label="Relock Fees:">
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
-                <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 140 }}>
-                  %Token
-                </p>
-              </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
-                <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 156 }}>
-                  BNB
-                </p>
-              </Form.Item>
-            </Form.Item>
-
-            <Form.Item label="Increase Lock Fees:">
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
-                <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 140 }}>
-                  %Token
-                </p>
-              </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
-                <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 156 }}>
-                  BNB
-                </p>
-              </Form.Item>
-            </Form.Item>
-
-            <Form.Item label="Lock Fees:">
-              <Form.Item style={{ display: "inline-block", width: 200 }}>
-                <Input style={{ paddingRight: 64, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 140 }}>
-                  %Token
-                </p>
-              </Form.Item>
-              <Form.Item style={{ display: "inline-block", width: 200, margin:'0 32px' }}>
-                <Input style={{ paddingRight:54, textAlign: "end" }} />
-                <p style={{ position: "relative", top: -26, left: 156 }}>
-                  BNB
-                </p>
-              </Form.Item>
-            </Form.Item>
+            ))}
           </Form>
 
           <Button disabled>Update</Button>
