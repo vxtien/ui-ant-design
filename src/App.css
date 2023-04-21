@@ -40,11 +40,12 @@ body {
     font-size: 32px;
 }
 
-.btn-token Button {
-    width: 130px;
-    border: 1px solid gray;
-}
 .ant-menu-item-selected {
-    background: #296eaf;
+    background: linear-gradient(to right,#296eaf,#002e58);
     translate: 3px ;
+}
+
+.ant-row .ant-form-item-row .css-dev-only-do-not-override-htwhyh,
+.ant-form-item-control-input-content {
+    height: 30px;
 }
