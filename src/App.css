@@ -46,11 +46,6 @@ body {
     translate: 3px ;
 }
 
-.ant-row .ant-form-item-row .css-dev-only-do-not-override-htwhyh,
-.ant-form-item-control-input-content {
-    height: 30px;
-}
-
 .form-token {
     display: flex;
     flex-direction: column;
