@@ -70,8 +70,6 @@ const FormSettingFee = () => {
                   style={{ display: "inline-block", width: 240 }}
                 >
                   <Input
-                    type="text"
-                    inputMode="numeric"
                     style={{ paddingRight: 64, textAlign: "end" }}
                     onKeyDown={checkNumberInput}
                   />
