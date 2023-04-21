@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -48,4 +49,14 @@ body {
 .ant-row .ant-form-item-row .css-dev-only-do-not-override-htwhyh,
 .ant-form-item-control-input-content {
     height: 30px;
+}
+
+.form-token {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 30px;
+}
+.btn-submit {
+    width: 150px;
 }

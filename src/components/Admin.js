@@ -53,7 +53,7 @@ const Addmin = () => {
         ></Menu>
       </Sider>
 
-      <Layout style={{ background: "white" }}>
+      <Layout>
         <Header className="header">
           <h1>Fee Setting</h1>
         </Header>
