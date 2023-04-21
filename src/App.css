@@ -55,3 +55,7 @@ body {
 .btn-submit {
     width: 150px;
 }
+
+.row-form {
+    gap: 40px;
+}
