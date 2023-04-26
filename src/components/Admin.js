@@ -1,9 +1,11 @@
 import { Layout, Avatar, Menu } from "antd";
 import { UserOutlined } from "@ant-design/icons";
-import { Link } from "react-router-dom";
-import FormSettingFee from "./Form";
+import { Link, Route, Routes } from "react-router-dom";
+import SettingFee from "./SettingFee";
+import SettingFeeReceiver from "./SettingFeeReceiver";
+import HomePage from "./HomePage";
 
-const { Sider, Header, Content } = Layout;
+const { Sider } = Layout;
 
 const Addmin = () => {
   return (
@@ -52,15 +54,11 @@ const Addmin = () => {
           ]}
         ></Menu>
       </Sider>
-
-      <Layout>
-        <Header className="header">
-          <h1>Fee Setting</h1>
-        </Header>
-        <Content style={{ background: "white", paddingLeft: "6%" }}>
-          <FormSettingFee/>
-        </Content>
-      </Layout>
+      <Routes>
+        <Route path="/" element={<HomePage/>}></Route>
+        <Route path="/setting-fee" element={<SettingFee />}></Route>
+        <Route path="/setting-fee-receiver" element={<SettingFeeReceiver/>}></Route>
+      </Routes>
     </Layout>
   );
 };

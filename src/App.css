@@ -53,9 +53,23 @@ body {
     gap: 30px;
 }
 .btn-submit {
-    width: 150px;
+    width: 200px;
 }
 
 .row-form {
     gap: 40px;
+}
+
+.form-setting-fee-receiver {
+    background-color: white;
+    padding: 30px 6%;
+    text-align: center;
+}
+
+.form-setting-fee-receiver .btn {
+    margin-top: 20px;
+}
+
+input.ant-input {
+    text-align: right;
 }

@@ -86,7 +86,7 @@ const StandardToken = () => {
         </Row>
       </Form.Item>
       <Button htmlType="submit" className="btn-submit">
-        Update
+        Update Standard Token
       </Button>
     </Form>
   );

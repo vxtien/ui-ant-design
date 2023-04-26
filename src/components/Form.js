@@ -1,4 +1,4 @@
-import { Form, Radio } from "antd";
+import { Radio } from "antd";
 import { useState } from "react";
 import LPTokenForm from "./LPTokenForm";
 import StandardTokenForm from "./StandardTokenForm";
@@ -21,18 +21,14 @@ const FormSettingFee = () => {
   };
   return (
     <>
-      <Form>
-        <Form.Item name="requiredTokenValue">
-          <Radio.Group>
-            <Radio.Button onClick={handleLPButtonClick} value="LP Token">
-              LP Token
-            </Radio.Button>
-            <Radio.Button onClick={handleStandardButtonClick} value>
-              Standard Token
-            </Radio.Button>
-          </Radio.Group>
-        </Form.Item>
-      </Form>
+      <Radio.Group name="requiredTokenValue">
+        <Radio.Button onClick={handleLPButtonClick} value="LP Token">
+          LP Token
+        </Radio.Button>
+        <Radio.Button onClick={handleStandardButtonClick} value="Standard Token">
+          Standard Token
+        </Radio.Button>
+      </Radio.Group>
 
       {tokenType === "LP" && showLPForm && <LPTokenForm/>}
 
